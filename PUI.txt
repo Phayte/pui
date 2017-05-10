@@ -2,11 +2,16 @@
 ## Version: 1
 ## APIVersion: 100018
 ## Author: Phayte
+## SavedVariables: PUISavedVariables
 
 PUI.lua
 
-PUI_Bag.lua
-PUI_Event.lua
+Interface/PUI_IBag.lua
+Interface/PUI_IChatCommand.lua
+Interface/PUI_ICrafting.lua
+Interface/PUI_IEvent.lua
+
 PUI_Info.lua
+PUI_CleanInventory.lua
 
 PUI_Main.lua

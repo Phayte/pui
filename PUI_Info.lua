@@ -1,6 +1,5 @@
-local PUI = PUI
-if PUI.IInfo == nil then
-    PUI.IInfo = {
+if PUI.Info == nil then
+    PUI.Info = {
         addOnName = "PUI",
     }
 end
