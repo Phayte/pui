@@ -21,6 +21,7 @@ function PUI.IBag.GetAllItems(bagId)
         local itemName = GetItemName(bagId, slotIndex)
         if itemName ~= nil and itemName ~= "" then
             local item = {}
+            item[PUI.IBag.ITEM_SLOT_INDEX_FIELD] = slotIndex
             item[PUI.IBag.ITEM_NAME_FIELD] = itemName
             item[PUI.IBag.ITEM_TYPE_FIELD] = GetItemType(bagId, slotIndex)
             item[PUI.IBag.ITEM_TRAIT_FIELD] = GetItemTrait(bagId, slotIndex)
