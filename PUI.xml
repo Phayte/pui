@@ -1,0 +1,18 @@
+<GuiXml>
+  <Controls>
+    <TopLevelControl name="ActionBarIndicator">
+      <Dimensions x="200" y="25" />
+      <Anchor point="BOTTOM" relativeTo="GuiRoot" relativePoint="CENTER" offsetY="-20" />
+
+      <Controls>
+        <Label name="$(parent)Label"
+               verticalAlignment="TOP" horizontalAlignment="CENTER"
+               width="200" height="24"
+               font="ZoFontWinH1" wrapMode="TRUNCATE"
+               inheritAlpha="true" text="" color="FF0000">
+          <Anchor point="TOP" relativeTo="$(parent)" relativePoint="TOP" />
+        </Label>
+      </Controls>
+    </TopLevelControl>
+  </Controls>
+</GuiXml>

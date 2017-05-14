@@ -4,14 +4,19 @@
 ## Author: Phayte
 ## SavedVariables: PUISavedVariables
 
+PUI.xml
 PUI.lua
 
 Interface/PUI_IBag.lua
 Interface/PUI_IChatCommand.lua
 Interface/PUI_ICrafting.lua
 Interface/PUI_IEvent.lua
+Interface/PUI_ISettings.lua
 
 PUI_Info.lua
 PUI_CleanInventory.lua
+PUI_ActionBarIndicator.lua
 
 PUI_Main.lua
+
+PUI_Scratch.lua
